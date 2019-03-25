@@ -1,0 +1,30 @@
+html{
+	height: 100%;
+}
+
+body{
+	background-image: url(https://images.unsplash.com/photo-1529257414772-1960b7bea4eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Lato', sans-serif;
+}
+
+#content{
+	text-align: center;
+	padding-top: 25%;
+	color: white;
+	text-shadow: 0px 4px 3px rgb(0,0,0,0.4),
+				 0px 8px 13px rgb(0,0,0,0.2),
+				 0px 18px 23px rgb(0,0,0,0.1);
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid rgb(0,0,0,0.2)
+}
