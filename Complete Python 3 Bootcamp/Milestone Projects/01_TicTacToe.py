@@ -118,7 +118,7 @@ while newgame.lower() != 'n':
 			sleep(1)
 			board = pickPosition(board,player2)	# player picks a position and pass the turn
 			lastturn = player2
-		else:n
+		else:
 			print("Player 1, your turn: ")
 			sleep(1)
 			board = pickPosition(board,player1)
