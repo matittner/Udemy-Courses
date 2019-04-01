@@ -1,0 +1,64 @@
+<!--  Mateus H. Ittner 30/03/2019 -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Color Guessing Game</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="colorGuessingGame.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header  -->
+    <div class="d-flex header justify-content-center align-items-center flex-column">
+        <h3 class="m-0">THE GREAT</h3>
+        <h1>RGB(<span id="r">0</span>, <span id="g">0</span>, <span id="b">0</span>)</h1>
+        <h3>COLOR GAME</h3>
+    </div>
+
+    <!-- Options Bar -->
+    <div class="d-flex optionsbar">
+        <button id="newcolor">NEW COLORS</button>
+        <p class="m-auto" id="message"> </p>
+        <button id="dif-easy">EASY</button>
+        <button class="active" id="dif-hard">HARD</button>
+    </div>
+
+    <!-- Color grid -->
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="color-square mt-4 mt-md-5 col-5 col-lg-3"></div>
+            <div class="color-square mt-4 mt-md-5 col-5 col-lg-3"></div>
+            <div class="color-square mt-4 mt-md-5 col-5 col-lg-3"></div>
+            <div class="color-square mt-4 mt-md-5 col-5 col-lg-3"></div>
+            <div class="color-square mt-4 mt-md-5 col-5 col-lg-3"></div>
+            <div class="color-square mt-4 mt-md-5 col-5 col-lg-3"></div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="colorGuessingGame.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* Mateus H. Ittner 31/03/2019 */
+
+body {
+    background-image: linear-gradient(to right, rgb(82, 209, 252), lightyellow);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    text-align: left;
+    background-color: white;
+    display: inline-block;
+    width: 400px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fa-plus{
+    float: right;
+    padding: 4px;
+}
+
+h1 {
+    background-color: rgb(96, 170, 240);
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+input {
+    border: 3px solid rgba(0, 0, 0, 0);
+    padding: 3px 0px 3px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: rgb(213, 235, 255);
+}
+
+li{
+    color: rgb(102, 112, 112);
+    display: list-item;
+    height: 40px;
+    line-height: 40px;
+}
+
+li:nth-child(odd){
+    background-color:  rgb(245, 245, 245);
+}
+
+li:hover span{
+    width: 40px;
+    opacity: 1;
+    transition-duration: 0.4s;
+}
+
+span{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    height: 40px;
+    width: 0;
+    opacity: 1;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.fa-trash-alt{
+    opacity: 0;
+}
+
+li:hover .fa-trash-alt{
+    opacity: 1;
+    transition-duration: 0.4s;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: rgb(156, 168, 168);
+}

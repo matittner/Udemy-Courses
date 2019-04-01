@@ -1,0 +1,66 @@
+/* Mateus H. Ittner 30/03/2019 */
+
+body {
+    background: rgb(32, 31, 32);
+    color: white;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.header {
+    background: rgb(60, 118, 174);
+}
+
+.optionsbar {
+    background: white;
+    padding: 0;
+}
+
+#message{
+    color: black;
+}
+
+button{
+    color: rgb(60, 118, 174);
+    border: 0;
+    padding: 5px;
+    background: white;
+    outline: none;
+}
+
+button.active{
+    color: white;
+    background: rgb(60, 118, 174);
+    border-radius: 0%;
+}
+
+.color-square{
+    padding-bottom: 25%;
+    padding-right: 25%;
+    background: palevioletred;
+    border: 1px solid silver;
+    border-radius:  10%;
+}
+
+@media(min-width:500px) AND (max-width:850px){
+    h1{
+        font-size: 3rem;
+    }
+    .optionsbar {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+@media(min-width:851px){
+    h1{
+        font-size: 4rem;
+    }
+    .optionsbar {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
